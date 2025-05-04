@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# Wishify - A Shopify-inspired Wishlist Application
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/2445d046-4143-402d-bbf1-042636c40d56
+Wishify is a Shopify-inspired web application that allows users to browse products and save their favorites to a wishlist for later consideration. This project demonstrates a responsive, modern e-commerce interface with wishlist functionality.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Product Browsing**: View a collection of products on the home page
+- **Wishlist Functionality**: Save products to a wishlist for later viewing
+- **Persistent Storage**: Wishlist items are stored in the browser's localStorage
+- **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices
+- **Toast Notifications**: User-friendly notifications when adding or removing items from the wishlist
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2445d046-4143-402d-bbf1-042636c40d56) and start prompting.
+### Core Technologies
+- **React**: JavaScript library for building user interfaces
+- **TypeScript**: Static typing for improved development experience
+- **React Router**: Navigation and routing between pages
+- **Vite**: Modern frontend tooling and build system
 
-Changes made via Lovable will be committed automatically to this repo.
+### Styling and UI
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **shadcn/ui**: Beautifully designed components built with Radix UI and Tailwind
+- **Lucide Icons**: Simple and consistent icon set
 
-**Use your preferred IDE**
+### State Management
+- **React Context API**: For global state management of the wishlist
+- **LocalStorage**: For persisting wishlist data between sessions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v16 or later)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+Navigate to the project directory:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+cd wishify
+Install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+
+npm install
+Start the development server:
+
+
 npm run dev
-```
+Open your browser and navigate to:
 
-**Edit a file directly in GitHub**
+http://localhost:5173
+Project Structure
+/src: Source code for the application
+/components: Reusable UI components
+/contexts: React Context providers
+/data: Mock product data
+/pages: Page components for different routes
+/lib: Utility functions and helpers
+Future Improvements
+User authentication for personalized wishlists
+Integration with a backend database for persistent storage across devices
+Product filtering and searching capabilities
+Animated transitions between pages
+Integration with an actual e-commerce API
+License
+This project is licensed under the MIT License.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2445d046-4143-402d-bbf1-042636c40d56) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
