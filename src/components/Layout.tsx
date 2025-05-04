@@ -22,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </p>
             <div className="flex items-center space-x-4">
               <span className="text-xs text-muted-foreground">
-                Made with Lovable
+                
               </span>
             </div>
           </div>
